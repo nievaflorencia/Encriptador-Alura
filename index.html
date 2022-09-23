@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoder by Flornoflo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="img/VectorAlura.png">
+    <meta name="theme-color" content="#0A3871">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoImg"  src="img/VectorAlura.png" alt="">
+            <h1 class="title">Message Encryptor</h1>
+        </div>
+        <div class="left">
+            <input class="textInput" id="inputTexto" type="text" placeholder="Enter text here">
+        </div>
+        <div class="right">
+            <img src="img/figure.png" alt="" id="imgRight">
+            <h1 id="texto">No message was found</h1>
+            <textarea  name="name" id="texto2" cols="30" rows="10">Enter the text you want to encrypt or decrypt here.</textarea>
+            <button id="copiar" type="button" name="button" onclick="copy()">copy</button>
+        </div>
+        <div class="left-button">
+            <p>Only lowercase</p>
+            <button type="button" id="btnEncriptar" onclick="encriptar()">Encrypt</button>
+            <button type="button" id="btnDesencriptar" onclick="desencriptar()">Decrypt</button>
+        </div>
+    </div>
+    
+    
+
+<footer>
+    <p>Copyright &copy; 2022 Nieva Florencia</p>
+</footer>
+</body>
+</html>
